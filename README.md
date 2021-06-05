@@ -12,14 +12,14 @@ Weather Application using JSON API
 8. [Reference](#reference)
 
 ## Introduction
-For your class project we will be creating an application to interacts with a webservice in order to obtain
-data. Your program will use all of the information you’ve learned in the class in order to create a useful
-application.
+In this project we will be creating an application to interacts with a webservice in order to obtain
+data. 
 
-Your program must prompt the user for their city or zip code and request weather forecast data from
-OpenWeatherMap. Your program must display the weather information in a READABLE format to the user.
+Program will prompt the user for their city or zip code and request weather forecast data from
+OpenWeatherMap. Program will display the weather information in a READABLE format to the user.
 
-1. Create a header for your program just as you have in the past.
+Following work will be done:
+1. Create a header for program.
 2. Create a Python Application which asks the user for their zip code or city.
 3. Use the zip code or city name in order to obtain weather forecast data from OpenWeatherMap.
 4. Display the weather forecast in a readable format to the user.
@@ -29,15 +29,15 @@ OpenWeatherMap. Your program must display the weather information in a READABLE 
 multiple locations.
 8. Validate whether the user entered valid data. If valid data isn’t presented notify the user.
 9. Use the Requests library in order to request data from the webservice.
-a. Use Try blocks to ensure that your request was successful. If the connection was not successful
+10. Use Try blocks to ensure that your request was successful. If the connection was not successful
 display a message to the user.
-10. Use Python 3
-11. Use try blocks when establishing connections to the webservice. You must print a message to the user
+11. Use Python 3
+12. Use try blocks when establishing connections to the webservice. You must print a message to the user
 indicating whether or not the connection was successful
 
 [back to top](#table-of-contents)
 ## Data Background
-
+Used openweathermap API invocation to get weather information.
 
 [back to top](#table-of-contents)
 ## Prerequisite
@@ -45,11 +45,13 @@ You will need the following applications to execute this project-
 
 * Python 3 (or Anaconda distribution with Python 3)
 * Jupyter or any other notebook
+* Internet
+* openweathermap account with valid API key.
 
 [back to top](#table-of-contents)
 
 ## Project Status
-Work in progress. I will be uploading more details soon. \
+Program return correct weather information for the input zip code. \
 [back to top](#table-of-contents)
 
 ## Versioning
@@ -61,9 +63,10 @@ Shani Kumar \
 [back to top](#table-of-contents)
 
 ## Acknowledgement
-
+This project helped me how to invoke API using python and parse the return data.
 [back to top](#table-of-contents)
 
 ## Reference
+1. https://www.nylas.com/blog/use-python-requests-module-rest-apis/
 
 [back to top](#table-of-contents)
