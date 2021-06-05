@@ -35,7 +35,7 @@ class WeatherForecast:
     ZIP code.
     """
     baseURL = "https://api.openweathermap.org/data/2.5/weather?"  # Base URL for the API call
-    apiKey = "0a650bfcf10dc57168a757f024aa1bf8"  # API Key for the API call
+    apiKey = "XXXXXXXXXXXXX"  # API Key for the API call
 
     def __init__(self):
         """ This method initializes variable of the class instance.
